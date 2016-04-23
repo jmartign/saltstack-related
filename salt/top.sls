@@ -12,4 +12,5 @@ base:
 
   'role:mysql_server':
     - match: grain
-    - mysql_server
+    - mysql.server
+    - mysql.libraries
